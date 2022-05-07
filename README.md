@@ -1,2 +1,2 @@
-# Talking-Dictionary-App
-Word Meaning App with ability to convert text to speech
+# Python-Apps
+Beginner friendly projects on python
