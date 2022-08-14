@@ -1,1 +1,10 @@
+#Band Name Generator App
+print("Welcome to Band Name Generator App")
+city = input("Name of the city you grew up in\n")
+pet = input("Do you have a pet\n")
+if pet == "yes":
+  pet_name=input("what is the name of your pet\n")
+else:
+  pet_name = input("what is your fav. movie name\n")
+print("Your Band Name is: "+ city+" "+pet_name )
 
