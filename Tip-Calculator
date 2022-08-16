@@ -2,11 +2,6 @@ print("Welcome to the Tip Calculator")
 a = float(input("Enter the bill\n"))
 b = int(input("enter the amount of percentage to be added as a tip: 10, 12 or 15\n"))
 c = int(input("Number of people the bill has to split in between:\n"))
-if b == 10:
-  amount = a + (10/100*a)
-elif b == 12:
-  amount = a + (12/100*a)
-else:
-  amount = a + (15/100*a)
+amount = a + (b/100*a)
 final_amount = round(amount/c,2)
 print(f"Share of each person is: ${final_amount}")
