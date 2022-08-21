@@ -1,0 +1,70 @@
+
+row1 = ["⬜️","️⬜️","️⬜️"]
+row2 = ["⬜️","⬜️","️⬜️"]
+row3 = ["⬜️️","⬜️️","⬜️️"]
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+print("Let's play tic tac toe using coordinates")
+position = input("Where do you want to put the X? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "X"
+print(f"{row1}\n{row2}\n{row3}")
+
+
+print("now it's the opponents turn ")
+position = input("Where do you want to put the O? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "O"
+print(f"{row1}\n{row2}\n{row3}")
+
+print("now it's your turn ")
+position = input("Where do you want to put the X? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "X"
+print(f"{row1}\n{row2}\n{row3}")
+
+print("now it's the opponents turn ")
+position = input("Where do you want to put the O? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "O"
+print(f"{row1}\n{row2}\n{row3}")
+
+print("now it's the your turn ")
+position = input("Where do you want to put the X? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "X"
+print(f"{row1}\n{row2}\n{row3}")
+
+
+print("now it's the opponents turn ")
+position = input("Where do you want to put the O? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "O"
+print(f"{row1}\n{row2}\n{row3}")
+
+print("now it's the your turn ")
+position = input("Where do you want to put the X? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "X"
+print(f"{row1}\n{row2}\n{row3}")
+
+print("now it's the opponents turn ")
+position = input("Where do you want to put the O? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "O"
+print(f"{row1}\n{row2}\n{row3}")
+
+print("now it's the your turn ")
+position = input("Where do you want to put the X? ")
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical-1][horizontal-1] = "X"
+print(f"{row1}\n{row2}\n{row3}")
